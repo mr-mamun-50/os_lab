@@ -1,0 +1,37 @@
+man 	=> an interface to the on-line reference manuals
+who 	=> show the user information
+cat 	=> concate the input and print the standard output
+cd 	=> change the directory
+cp 	=> copy a file from one directory to another
+ps 	=> the process running in the current shell of linux system are shown
+ls 	=> list directory contents
+mv 	=> move (rename) files
+rm 	=> remove files or directories
+mkdir	=> make directories
+rmdir	=> remove directories
+echo	=> print a text
+
+more	=> used to view the text files in the command prompt, displaying one screen at a time in case the file is large (For example log files). The more command also allows the user do scroll up and down through the page
+
+less	=> a Linux utility that can be used to read the contents of a text file one page(one screen) at a time. It has faster access because if file is large it doesn’t access the complete file, but accesses it page by page. 
+
+date	=> a simplistic command that, by default, shows the current date and time of the system
+time	=> used to determine the execution time taken by the processor to execute the specified command
+
+kill	=> a built-in command which is used to terminate processes manually. kill command sends a signal to a process which terminates the process
+
+history	=> used to view the previously executed command
+
+chmod	=> used to change the access permissions of files and directories
+chown 	=> used to change the file Owner or group
+
+Finger	=> a user information lookup command which gives details of all the users logged in. This tool is generally used by system administrators. It provides details like login name, user name, idle time, login time, and in some cases their email address even
+
+pwd	=> writes to standard output the full path name of your current directory (from the root directory)
+
+cal	=> a calendar command in Linux which is used to see the calendar of a specific month or a whole year
+
+logout	=> programmatically logout from session
+shutdown => sed to shutdown the system in a safe way
+
+

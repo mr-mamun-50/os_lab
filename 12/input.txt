@@ -1,0 +1,9 @@
+According to Wikipedia, a framework’s main objective is to automate the overhead correlated with software development activities. The core advantages of using a framework for development are:
+
+1. Time-Saving
+2. Scalability
+3. Robustness
+4. Security
+5. Integrations
+
+On top of that, most of the frameworks are Open-Source. Keep reading to learn for about the best web development backend frameworks.

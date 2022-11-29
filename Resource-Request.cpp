@@ -1,25 +1,44 @@
 // Banker's Algorithm
-#include <stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
+
 int main()
 {
     // P0, P1, P2, P3, P4 are the Process names here
 
     int n, m, i, j, k;
-    n = 5; // Number of processes
-    m = 3; // Number of resources
-    int alloc[5][3] = { { 0, 1, 0 }, // P0 // Allocation Matrix
-                        { 2, 0, 0 }, // P1
-                        { 3, 0, 2 }, // P2
-                        { 2, 1, 1 }, // P3
-                        { 0, 0, 2 } }; // P4
+    cout << "Enter the number of processes: ";
+    cin >> n;
+    cout << "Enter the number of resources: ";
+    cin >> m;
+    int alloc[n][m];
 
-    int max[5][3] = { { 7, 5, 3 }, // P0 // MAX Matrix
-                    { 3, 2, 2 }, // P1
-                    { 9, 0, 2 }, // P2
-                    { 2, 2, 2 }, // P3
-                    { 4, 3, 3 } }; // P4
+    cout << "Enter the allocation matrix: " << endl;
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j < m; j++)
+        {
+            cin >> alloc[i][j];
+        }
+    }
 
-    int avail[3] = { 3, 3, 2 }; // Available Resources
+    int max[n][m];
+    cout << "Enter the request matrix: ";
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j < m; j++)
+        {
+            cin >> max[i][j];
+        }
+    }
+
+    int avail[3]; // Available Resources
+
+    cout << "Enter the available resources: ";
+    for (i = 0; i < m; i++)
+    {
+        cin >> avail[i];
+    }
 
     int f[n], ans[n], ind = 0;
     for (k = 0; k < n; k++) {
